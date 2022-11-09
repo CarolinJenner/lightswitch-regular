@@ -1,4 +1,6 @@
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -20,18 +22,20 @@ body {
 .button {
     border-radius: .2rem;
     border: .25rem solid var(--clr-grey-01);
+
     background-color: var(--clr-white-01);
-    color: var(--clr-grey-01);padding-block: .5rem .7rem;;
+    color: var(--clr-grey-01);
+    
+    padding-block: .5rem .7rem;;
     padding-inline: 1.5rem; 
 
     font-size: 1.7rem;
     font-weight: 300;
+
     position: relative;
     top: 44vh;
     left: 44vw;
-}
 
-.button:hover {
     cursor: pointer;
 }
 
@@ -41,13 +45,10 @@ body {
 
 .dark {
     border: .25rem solid var(--clr-white-01);
+    
     background-color: var(--clr-grey-01);
     color: var(--clr-white-01);
     box-shadow: 0 0 5px var(--clr-yellow-00), 0 0 10px var(--clr-yellow-00), 0 0 20px var(--clr-yellow-00);
 
     font-weight: 100; 
-}
-
-.bs-sdw-none {
-    box-shadow: none;
 }
